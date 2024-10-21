@@ -1,0 +1,42 @@
+### Summary of College Project: To-Do List Application in C++
+
+**Project Title:** To-Do List Application
+
+**Objective:**
+The goal of this project was to develop a console-based to-do list application using C++. This application allows users to manage their tasks efficiently by providing features to add, view, and remove tasks.
+
+**Key Features:**
+1. **Task Management:**
+   - Users can add new tasks to the list.
+   - View all tasks currently in the list with numbering for easy reference.
+   - Remove specific tasks by their number.
+
+2. **User Interaction:**
+   - A simple menu-driven interface for easy navigation.
+   - Input validation to ensure users enter valid options.
+
+3. **Data Structure:**
+   - Utilized `std::vector` for dynamic task storage, allowing for seamless addition and removal of tasks.
+
+**Technical Aspects:**
+- **Programming Language:** C++
+- **Development Environment:** Any standard C++ compiler (e.g., g++, Visual Studio)
+- **Input Handling:** Used `std::cin` for numeric input and `std::getline` for string input to accommodate task names.
+
+**Implementation Steps:**
+1. **Class Definition:** Created a `TodoList` class to encapsulate task management functionalities.
+2. **Menu System:** Developed a loop to present a menu of options, allowing users to interact with the application.
+3. **Functionality:** Implemented methods for adding, viewing, and removing tasks within the class.
+
+**Challenges Faced:**
+- Ensuring proper input validation and error handling.
+- Managing dynamic memory with the vector to prevent memory leaks.
+
+**Outcome:**
+The project successfully demonstrated how to create a functional to-do list application in C++. It provided hands-on experience with object-oriented programming, data structures, and basic user interface design.
+
+**Future Enhancements:**
+- Implementing features like task prioritization, saving tasks to a file, and marking tasks as completed.
+- Creating a graphical user interface (GUI) for better user experience.
+
+This project not only met the initial objectives but also laid the groundwork for further improvements and learning in C++ programming.
